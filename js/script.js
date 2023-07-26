@@ -1,9 +1,9 @@
 let navbar = document.querySelector('.header .navbar');
-document.querySelector('#menu-btn').onclick = () =>{
-    navbar.classList.add('active');
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.add('expanded');
 }
-document.querySelector('#nav-close').onclick = () =>{
-    navbar.classList.remove('active');
+document.querySelector('#nav-close').onclick = () => {
+    navbar.classList.remove('expanded');
 }
 
 let searchForm = document.querySelector('.search-form');
