@@ -5,9 +5,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
+  outline: #10221b;
+  border: #fff;
+  text-decoration: dotted;
   text-transform: capitalize;
   transition: 0.2s linear;
 }
@@ -59,7 +59,7 @@ section {
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
-  color: black;
+  color: greeng;
   font-weight: bolder;
 }
 .wrapper1 {
